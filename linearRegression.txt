@@ -1,0 +1,14 @@
+
+y=mx+c -> gives us a linear line    
+MSE = J(w,b) = 1/N Summation from i=1 to n (yi-(wxi+b))^2
+for best fit line the mean squared error should be low , and we have to find least minmum square error we use Gradient Descent for it 
+we mutliply by learning rate and subtract the values-> (Weight and Bias )
+
+Algorithm ->
+    Predict using the line equation the line 
+    Calculate the error 
+    Use gradient descent to figure out new weight and bias Values 
+    Repeat n times 
+
+Doing it Efficiently 
+y= mx+c ------> ypred = mX+c (X=[xi.....])
