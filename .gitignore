@@ -1,0 +1,5 @@
+# Ignore model and scaler files
+*.pkl
+
+# Ignore virtual environment directory
+venv/
