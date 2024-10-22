@@ -3,7 +3,7 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import mean_squared_error
-from LinearRegression import LinearRegression  # Import your custom LinearRegression class
+from LinearRegression.LinearRegression import LinearRegression  # Import your custom LinearRegression class
 import pickle
 
 # Load the dataset

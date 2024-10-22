@@ -1,3 +1,4 @@
+#For predicting from the model stored in the pkl file 
 import numpy as np
 import pandas as pd
 import pickle
